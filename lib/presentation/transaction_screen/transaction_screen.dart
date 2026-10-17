@@ -86,7 +86,7 @@ class TopNavigation extends StatelessWidget {
         children: [
           IconButton(
             tooltip: 'Go Back',
-            onPressed: Get.back(),
+            onPressed: () => Get.back(),
             icon: const Icon(Icons.chevron_left_rounded,
                 size: 30, color: Colors.white),
           ),
